@@ -12,11 +12,6 @@ public class Main {
             System.out.println("Отличное имя!");
             System.out.println("Ваше имя имеет длину " + user2.length() + " символов");
         }
-        if (user1.equalsIgnoreCase(user2) == true)
-            System.out.println("Выберите другое имя пользователя");
-        else {
-            System.out.println("Отличное имя!");
-            System.out.println("Ваше имя имеет длину " + user2.length() + " символов");
     }
 }
 
